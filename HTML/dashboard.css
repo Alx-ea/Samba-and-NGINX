@@ -1,0 +1,46 @@
+.file-list {
+    margin-top: 20px;
+}
+
+.file-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background: #f9f9f9;
+    border-bottom: 1px solid #eee;
+}
+
+.file-item:last-child {
+    border-bottom: none;
+}
+
+.file-item a {
+    flex-grow: 1;
+    margin-right: 10px;
+    display: block;
+    color: #333;
+    text-decoration: none;
+}
+
+.file-item button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.file-item button:hover {
+    background-color: #0056b3;
+}
+
+.back-link {
+    display: block;
+    margin-bottom: 20px;
+    color: #007BFF;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
