@@ -3,6 +3,7 @@
 This Project utilises two devices on a LAN, one being the webserver and the other being a samba file server.
 
 The webserver is accessable externally and has the files hosted on it
+    - This version uses dataplicity on the webserver to create a wormwhole which essentially hosts the webserver on dataplicity server
 
 The code in 'HTML' contains all of the .php and .css files on the webserver 
     - This contains a login page before accessing it (With a hardcoded login which needs to be updated as it is unsecure, implementation of a DB with logins is needed.)
